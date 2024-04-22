@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <title>PARK SMARTLY</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <form class="nav">
+
+        <img src="logo2.png" class="logo">
+        <a href="#">HOME </a>
+        <a href="rent.html">RENT YOUR PLACE</a>
+        <a href="#">BOOKINGS </a>
+        <a href="#">EV </a>
+        <a href="aadi.php">LOGIN</a>
+       
+    </form>
+
+    <div class="heading">
+        <h1>Be Smart, <br>To Find Your SPot..</h1>
+    </div>
+    <div class="symbol">
+        <a>&#128178 BEST PRICE GUARANTEE</a>
+        <a>&#x2705 TRIED & TRUSTED</a>
+
+    </div>
+    <div class="line">
+        Say goodbye to the frustration of circling endlessly for a spot ,
+        Thousands of reservable spaces <br>located right where you need them is waiting for you .
+        Join over 13 million drivers and enjoy<br> stress-free, cheaper parking.
+
+
+    </div>
+
+    <div class="image">
+        <img src="garage.jpg">
+
+    </div>
+
+
+
+    <div class="work">
+        <div class="buton-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="daily()">DAILY</button>
+            <button type="button" class="toggle-btn" onclick="monthly()">MONTHLY</button>
+        </div>
+        <form id="daily" class="details">
+            <input type="text" id="searchInput" placeholder="SEARCH YOUR SPOT">
+            <div class="days"><br>
+                <a class="select-date">SELECT DATE :-</a>
+                <input type="date" id="DAY" placeholder="SELECT DATE">
+            </div>
+            <div class="hour">
+                <a class="select-timing">SELECT TIMING :-</a>
+                <input type="time" id="TIME" placeholder="SELECT TIMING">
+
+            </div>
+            <button id="searchbtn" onclick="search()">Search</button>
+        </form>
+
+        <form id="monthly" class="details">
+            <input type="text" id="searchInput" placeholder="SEARCH YOUR SPOT">
+            <div class="days"><br>
+                <a class="select-date">FROM :-</a>
+                <input type="date" id="DAY" placeholder="SELECT DATE">
+            </div>
+            <div class="hour">
+                <a class="select-timing">TO :-</a>
+                <input type="date" id="TIME" placeholder="SELECT TIMING">
+
+            </div>
+            <button id="searchbtn" onclick="search()">BOOK</button>
+
+
+        </form>
+
+
+    </div>
+
+    <script>
+        var x = document.getElementById("daily");
+        var y = document.getElementById("monthly");
+        var z = document.getElementById("btn");
+
+        function monthly() {
+            x.style.left = "-700px";
+            y.style.left = "0px";
+            z.style.left = "50%";
+        }
+        function daily() {
+            x.style.left = "0px";
+            y.style.left = "-700px";
+            z.style.left = "0";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

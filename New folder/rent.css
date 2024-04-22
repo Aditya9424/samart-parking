@@ -1,0 +1,188 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+   
+}
+
+
+
+
+.nav{
+    background-color: #fbbbdce0;
+    background-size: cover;
+    height: 75px;
+    width: 100%;
+   
+    display: flex;
+    text-align: right;
+   justify-content:right;
+   margin-top: 0px;
+   box-shadow: 2px 4px 4px rgba(153, 132, 132, 0.944);
+   
+    
+}
+
+.nav a{
+    padding: 5px 10px;
+    color: black;
+    text-decoration: solid;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: right;
+    
+        
+}
+.nav a:hover{
+    color: rgb(251, 248, 248);
+}
+.logo{
+    height: 80px;
+    width: 200px;
+    margin-right: 45%;
+    size: 80px;
+    cursor: pointer;
+}
+
+.background{
+    background-image: url('rent\ wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; /* This ensures that the background covers the entire viewport height */
+  margin: 0; /* Remove default body margin */
+  padding: 0; 
+}
+
+.work{
+    height: 500px;
+    width: 450px;
+    border: 4px solid rgb(193, 187, 187);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+   
+    position: absolute;
+    transform: translatey(-50%);
+    top: 50%;
+    display: block;
+    text-align: center;
+    background: transparent;
+    margin-left: 35%;
+    margin-top: 160px;
+}
+
+
+.inputdata{
+       
+       width: 97%;
+       top: 30px;
+      position: absolute;
+
+}
+
+#username{
+
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid rgba(96, 96, 179, 0.715);
+    height: 50px;
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    cursor: pointer;
+    outline: none;
+    background-color: #daeaded4; /* Blue color */
+    color: black;
+    font-size: 18px;
+}
+
+#email{
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid rgba(96, 96, 179, 0.715);
+    height: 50px;
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+    background-color: #daeaded4; /* Blue color */
+    color: black;
+    font-size: 18px;
+}
+#contact-no{
+    font-size: 16px;
+    width: 210px;
+    border: 2px solid rgba(96, 96, 179, 0.715);
+    height: 50px;
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    cursor: pointer;
+    margin-top: 25px;
+    
+    outline: none;
+    background-color: #daeaded4; /* Blue color */
+    color: black;
+    font-size: 18px;
+   
+}
+#pincode{
+    font-size: 16px;
+    width: 210px;
+    border: 2px solid rgba(96, 96, 179, 0.715);
+    height: 50px;
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left:   10px;
+    outline: none;
+    background-color: #daeaded4; /* Blue color */
+    color: black;
+    font-size: 18px;
+}
+
+#address{
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid rgba(96, 96, 179, 0.715);
+    height: 50px;
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+    background-color: #daeaded4; /* Blue color */
+    color: black;
+    font-size: 18px;
+
+}
+
+#uploadbtn{
+    display: none;
+   
+}
+
+.inputdata label{
+    margin-left: -250;
+    margin-top: 35px;
+    display: inline-block;
+    border: 2px solid rgba(21, 21, 41, 0.715);
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 2px 2px 2px 2px  rgb(187, 187, 226);
+    padding: 15px 14px;
+    cursor: pointer;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    font-size: 14px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: #daeaded4;
+    
+    
+    
+}
+

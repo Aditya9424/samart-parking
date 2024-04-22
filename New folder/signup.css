@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    background-size: cover;
+    background-image:  url('signup\ wallpaper.jpg');
+    background-repeat: no-repeat;
+}
+
+.container{
+display: flex;
+margin-left: 32%;
+margin-top:60px;
+width: 450px;
+height: 420px;
+transform: translate(-50);
+border: 1px solid rgba(165, 34, 161, 0.604);
+padding: 70px 0px 0px 50px;
+border-radius: 10px 10px 10px 10px ;
+box-shadow: 5px 5px 20px 10px rgba(255, 192, 203, 0.677);
+
+
+}
+
+.name{
+width: 100%;
+
+}
+
+.name a{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+
+#firstname{
+    height: 35px;
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -10px;
+    font-size: 16px;
+    border: 2px solid white;
+    outline-color: rgb(173, 97, 97);
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#firstname:hover{
+    transform: scale(1.2);
+    border-radius: 8px;
+    
+    border: 2px solid grey;
+}
+
+#lastname{
+    height: 35px;
+    width: 180px;
+    margin-top: 15px;
+    border: 2px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 16px;
+    position: relative;
+    outline-color: rgb(173, 97, 97);
+    cursor: pointer;
+    
+    transition: 0.5s;
+    justify-content: space-between;
+}
+
+#lastname:hover{
+    transform: scale(1.2);
+    border-radius: 8px;
+   
+    border: 2px solid grey;
+}
+.pass{
+    margin-top: 40px;
+    
+}
+
+.pass a{
+    font-size: 20px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+#password{
+    height: 35px;
+    width: 400px;
+    text-indent: 20px;
+    margin-top: 15px;
+    text-align: start;
+    outline-color: rgb(173, 97, 97);
+    border: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#password:hover{
+    transform: scale(1.1);
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+#button{
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 130px;
+    
+    border: 4px;
+    outline-color: rgb(173, 97, 97);
+    background: linear-gradient(to right, #66ccff 0%, #ffffff 95%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#button:hover{
+    transform: scale(1.2);
+    border-radius: 8px;
+    border-color: #ffffff;
+    border: 2px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+
+nav a{
+    font-size: 24px;
+    color: white;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+}

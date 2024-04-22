@@ -1,0 +1,69 @@
+body{
+    background-image: url(sl_121021_47240_08.jpg);
+    background-size: cover;
+    
+}
+.container{
+    margin-left: 55%;
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+    border: 2px solid grey;
+    border-radius: 10px 10px 10px 10px ;
+    background: transparent;
+    
+}
+ h1{
+    text-align: center;
+    color: beige;
+    font-weight: bolder;
+}
+
+.paymentform{
+    margin-left: 25px;
+}
+.paymentform a{
+    font-size: 24px;
+    display: block;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 30px;
+    color: beige;
+    
+}
+#name{
+    height: 40px;
+    width: 450px;
+    box-shadow: 2px 4px 4px rgba(153, 132, 132, 0.944);
+    
+
+}
+ h2{
+    color: beige;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.ticket{
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.ticket select{
+    height: 30px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rgb(22, 163, 234);
+}
+#pay{
+    display: none;
+}
+label{
+    border: 2px solid rgba(162, 162, 219, 0.715);
+    border-radius: 2px 2px 2px 2px ;
+    box-shadow: 1px 1px 1px 1px  rgb(187, 187, 226);
+    height: 60px;
+    width: 200px;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   
+    background-size: cover;
+    background-image: url('signup\ wallpaper.jpg');
+    background-repeat: no-repeat;
+}
+form{
+   width: 100%;
+    transform: translatey(-50%);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: large;
+    border: 1px solid #aabbcc;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 10px 5px #aabbcc;
+    width: 550px;
+    height: 400px;
+    margin-left: 35%;
+    
+
+   
+}
+form input{
+    padding: 5px;
+    width: 350px;
+    height: 45px;
+}
+form p{
+    margin-top: 50px;
+    font-size: 30px;
+    color: beige;
+    margin-right: 70px;
+    padding: 10px;
+    
+    
+}
+#button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8pxpx;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 25px;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    margin-top: 10px;
+}
+
+nav a{
+    font-size: 24px;
+    color: white;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+}
